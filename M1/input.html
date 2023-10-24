@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+<h1>Veeeryyyy Simple Calculator</h1>
+<form action="/result" method="post">
+    <label for="number1">Enter first number:</label>
+    <input type="text" name="number1"><br>
+<br>
+    <label for="number2">Enter second number:</label>
+    <input type="text" name="number2"><br>
+    <br>
+    <label for="operator">Select Operator:</label>
+    <br>
+    <input type="radio" name="operator" value="+" id="add"><label for="add"> + </label>
+    <input type="radio" name="operator" value="-" id="subtract"><label for="subtract"> - </label>
+    <input type="radio" name="operator" value="*" id="multiply"><label for="multiply"> * </label>
+    <input type="radio" name="operator" value="/" id="divide"><label for="divide"> / </label>
+    <input type="radio" name="operator" value="%" id="modulo"><label for="modulo"> % </label><br>
+<br>
+    <input type="submit" value="Calculate">
+</form>
+</body>
+</html>

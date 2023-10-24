@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+<h1>Heeeree you are at Output Page</h1>
+<p>
+    {{.Number1}} {{.Operator}} {{.Number2}} = {{.Result}}
+</p>
+{{if .Error}}
+<p>{{.Error}}</p>
+{{end}}
+<a href="/">Go Back</a>
+</body>
+</html>
